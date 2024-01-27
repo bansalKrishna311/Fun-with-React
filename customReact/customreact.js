@@ -1,10 +1,11 @@
-// function customRender(reactElement, container) {
-//     const domElement = document.createElement(reactElement.type)
-//    domElement.innerHTML = reactElement.children
-//    domElement.setAttribute('href', reactElement.props.href)
-//     domElement.setAttribute('target', reactElement.props.target)
-//     container.appendChild(domElement)
-// }
+document.addEventListener("DOMContentLoaded", function() {
+function customRender(reactElement, container) {
+    const domElement = document.createElement(reactElement.type)
+   domElement.innerHTML = reactElement.children
+   domElement.setAttribute('href', reactElement.props.href)
+    domElement.setAttribute('target', reactElement.props.target)
+    container.appendChild(domElement)
+}
 
 // const reactElement = {
 //     type : 'a',
@@ -18,15 +19,15 @@
 // const mainContainer = document.querySelector('#root')
 
 
-document.addEventListener("DOMContentLoaded", function() {
-    // Function to render the custom React element
-    function customRender(reactElement, container) {
-        const domElement = document.createElement(reactElement.type);
-        domElement.innerHTML = reactElement.children;
-        domElement.setAttribute('href', reactElement.props.href);
-        domElement.setAttribute('target', reactElement.props.target);
-        container.appendChild(domElement);
-    }
+// document.addEventListener("DOMContentLoaded", function() {
+//     // Function to render the custom React element
+//     function customRender(reactElement, container) {
+//         const domElement = document.createElement(reactElement.type);
+//         domElement.innerHTML = reactElement.children;
+//         domElement.setAttribute('href', reactElement.props.href);
+//         domElement.setAttribute('target', reactElement.props.target);
+//         container.appendChild(domElement);
+//     }
 
     // Define the React element
     const reactElement = {
