@@ -27,4 +27,4 @@ function App() {
 }
 
 export default App;
- Earum, est voluptate sint quasi sunt cum quibusdam dolorum ratione adipisci 
+voluptate sint quasi sunt cum quibusdam dolorum ratione adipisci 
