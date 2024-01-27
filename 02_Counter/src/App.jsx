@@ -27,4 +27,4 @@ function App() {
 }
 
 export default App;
- adipisicing elit. Earum, est voluptate sint quasi sunt cum quibusdam dolorum ratione adipisci 
+ Earum, est voluptate sint quasi sunt cum quibusdam dolorum ratione adipisci 
