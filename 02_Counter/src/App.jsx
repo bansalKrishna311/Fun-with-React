@@ -27,4 +27,4 @@ function App() {
 }
 
 export default App;
-Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum, est voluptate sint quasi sunt cum quibusdam dolorum ratione adipisci 
+, ipsum dolor sit amet consectetur adipisicing elit. Earum, est voluptate sint quasi sunt cum quibusdam dolorum ratione adipisci 
