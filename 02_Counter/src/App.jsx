@@ -27,4 +27,3 @@ function App() {
 }
 
 export default App;
-voluptate sint quasi sunt cum quibusdam dolorum ratione adipisci 
