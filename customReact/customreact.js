@@ -1,7 +1,5 @@
 document.addEventListener("DOMContentLoaded", function() {
-function customRender(reactElement, container) {
-    const 
-   
+function customRender(reactElement, container) 
    
     
 
