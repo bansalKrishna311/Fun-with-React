@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function() {
 function customRender(reactElement, container) {
-    const domElement = document.createElement(reactElement.type)
+    const domElement = document.createElement
    
    
     
