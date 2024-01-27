@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function() {
-function customRender(reactElement, container) 
+function customRender
    
     
 
