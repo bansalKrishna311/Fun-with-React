@@ -10,14 +10,15 @@ function App(props) {
       userName :'krishna',
       age:21
     }
+    let btnText =  "click me"
 
   return (
     <>
       <h1 className="bg-green-400 text-blue-950 px-10 rounded-xl">hello</h1>
 
-      <Card channel = "chaiaurcode" myArr = {[1, 2, 3]} />
-      <Card channel = "chaiaurcode" obj = {myObj}  />
-      <Card />
+      <Card userName = "chaiAurCode" btnText = "Visit Me" />
+      <Card userName = "Krishna"  btnText = "mujhe leke jaao jaldi "  />
+      <Card   userName = "Bansal"  />
 
     </>
   );
