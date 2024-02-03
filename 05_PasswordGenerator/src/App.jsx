@@ -28,7 +28,7 @@ function App() {
 
   return (
     <>
-   <h1 className="text-4xl">Password Generator</h1>
+<div className="w-full max-w-md"></div>
     </>
   )
 }
