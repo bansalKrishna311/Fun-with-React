@@ -19,6 +19,7 @@ function App() {
       pass = str.charAt(char)
 
     }
+    setPassword(pass)
 
  }, [length, numberAllowed, characterAllowed, setPassword])
   
