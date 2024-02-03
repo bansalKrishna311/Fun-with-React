@@ -47,7 +47,10 @@ function App() {
         min={6}
         max={10}
         value={length}
+        className='cursor-pointer'
+        onChange={(e) => {setlength(e.target.value)}}
         />
+        <label>Length:{length}</label>
 
       </div>
     </div>
