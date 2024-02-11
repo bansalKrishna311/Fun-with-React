@@ -62,7 +62,7 @@ function App() {
           <input type="checkbox"
                   defaultChecked={characterAllowed}
                   id="characterInput"
-              onChange={(e) => { setCharAllowed((prev) => !prev) }}
+              onChange={(e) => { setCharacterAllowed((prev) => !prev) }}
             />
             <label htmlFor="characterInput">Characters</label>
           </div>
