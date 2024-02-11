@@ -50,8 +50,16 @@ function App() {
               className='cursor-pointer'
               onChange={(e) => { setlength(e.target.value) }}
             />
-            <label>Length:{length}</label>
+            <label>Length: {length} </label>
 
+          </div>
+          <div className="flex items-center gap-x-2">
+          <input type="checkbox"
+                  defaultChecked={numberAllowed}
+                  id="numberInput"
+              onChange={(e) => { setNumberAllowed((prev) => !prev) }}
+            />
+            <label htmlFor="numberInput">Numbers</label>
           </div>
         </div>
       </div>
