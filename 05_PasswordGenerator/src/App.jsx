@@ -25,7 +25,7 @@ function App() {
 
 
 
-
+passwordGenerator()
   return (
     <>
       <div className="w-full max-w-md mx-auto shadow-md rounded-lg px-4 my-8 text-orange-500 bg-gray-500">
@@ -63,7 +63,7 @@ function App() {
           </div>
           <div className="flex items-center gap-x-2">
           <input type="checkbox"
-                  defaultChecked={charAllowed}
+                  defaultChecked={characterAllowed}
                   id="characterInput"
               onChange={(e) => { setCharAllowed((prev) => !prev) }}
             />
