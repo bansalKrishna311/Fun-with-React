@@ -6,7 +6,7 @@ import {  RouterProvider, createBrowserRouter } from 'react-router-dom'
 import Layout from './Layout.jsx'
 import Home from './components/home/home.jsx'
 import About from './components/about/about.jsx'
-import Contact from './components/contact/Contact.js'
+import Contact from './components/contact/Contact.jsx'
 
 const router = createBrowserRouter([
   {
