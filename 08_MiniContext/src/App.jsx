@@ -9,10 +9,11 @@ import Profile from './components/Profile'
 function App() {
   return (
    <>
-   <UserContextProvider></UserContextProvider>
+   <UserContextProvider>
    <h1>Lorem ipsum dolor sit amet.</h1>
    <Login />
    <Profile />
+   </UserContextProvider>
    </>
   )
 }
