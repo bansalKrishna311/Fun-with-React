@@ -1,11 +1,12 @@
 
 import './App.css'
+import { ThemeProvider } from './contexts/theme'
 
 function App() {
 
 
   return (
-   <>
+   <ThemeProvider>
    
 <div className="flex flex-wrap min-h-screen items-center">
                 <div className="w-full">
@@ -20,7 +21,7 @@ function App() {
                 </div>
             </div>
 
-   </>
+   </ThemeProvider>
   )
 }
 
