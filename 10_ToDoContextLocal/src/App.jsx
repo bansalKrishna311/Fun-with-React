@@ -4,6 +4,9 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import { TodoProvider } from './contexts/TodoContext'
 import TodoForm from './Components/TodoForm'
+import TodoItem from './Components/TodoItem'
+import React, { useEffect } from 'react';
+
 
 function App() {
   const [todos, setTodo] = useState([])
@@ -50,8 +53,10 @@ function App() {
                     </div>
                     <div className="flex flex-wrap gap-y-3">
                         {todos.map((todo)=>(
-                          <div key={todo.id}> 
-                        
+                          <div key={todo.id}
+                          className='w-full'> 
+                          <TodoItem todo={todo}/>
+
                           </div>
                         ))}
                     </div>
